@@ -1,3 +1,6 @@
 const axios = require("axios");
 
-console.log("Hello Node! We're here again");
+const nome = process.argv.slice(2);
+
+console.log(`Hello Node! We're here again
+Tra quadre l'ipnut da terminale [${nome}]`);
